@@ -62,7 +62,3 @@ curl -o cat.png "https://pixel-edge.your-worker-subdomain.workers.dev/?prompt=a%
 ```
 
 > **提示**: `prompt` 参数的内容需要进行 URL 编码，例如将空格替换为 `%20`。
-
-## 📄 许可证
-
-本项目采用 [MIT License](./LICENSE)。

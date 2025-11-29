@@ -42,23 +42,5 @@
 
 ## 🚀 使用方法
 
-部署成功后，你的 Worker 会提供一个简单的 GET 接口。
+部署成功后，回到 Cloudflare workers-and-pages 会多出一个 pixel-edge 项目，点进去有访问按钮。
 
-### 直接在浏览器或 `<img>` 标签中使用
-
-将你的 Worker URL 和 `prompt` 参数组合起来，即可获得图片。
-
-```html
-<!-- 示例: 生成一只赛博朋克猫 -->
-<img src="https://pixel-edge.your-worker-subdomain.workers.dev/?prompt=a%20cyberpunk%20cat%20in%20a%20neon-lit%20city" alt="AI Generated Image">
-```
-
-### 使用 `curl` 测试
-
-你也可以用 `curl` 命令将生成的图片保存到本地。
-
-```bash
-curl -o cat.png "https://pixel-edge.your-worker-subdomain.workers.dev/?prompt=a%20cat%20wearing%20a%20tiny%20wizard%20hat"
-```
-
-> **提示**: `prompt` 参数的内容需要进行 URL 编码，例如将空格替换为 `%20`。

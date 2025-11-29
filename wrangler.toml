@@ -1,0 +1,7 @@
+name = "pixel-edge"
+main = "src/index.ts"
+compatibility_date = "2024-04-01"
+accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+[ai]
+binding = "AI"

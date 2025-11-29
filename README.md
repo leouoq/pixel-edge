@@ -32,7 +32,7 @@
 (`Settings` -> `Secrets and variables` -> `Actions`)
 
 -   `CLOUDFLARE_API_TOKEN`: 你的 Cloudflare API 令牌。你可以在 [这里](https://dash.cloudflare.com/profile/api-tokens) 创建一个，使用 `Edit Cloudflare Workers` 模板。
--   `CLOUDFLARE_ACCOUNT_ID`: 你的 Cloudflare 账户 ID。你可以在 URL 看到 `https://dash.cloudflare.com/你的Cloudflare 账户ID/home/domains`
+-   `CLOUDFLARE_ACCOUNT_ID`: 你的 Cloudflare 账户 ID。你可以在 URL 看到 `https://dash.cloudflare.com/你的Cloudflare账户ID/home/domains`
 
 ### 2. 运行 GitHub Actions
 - 打开 GitHub Actions 
